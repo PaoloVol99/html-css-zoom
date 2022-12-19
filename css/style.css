@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/************
+ DEBUG RULES 
+*************/
+
+.debug * {
+    padding: 10px;
+    border: 1px dashed tomato;
+}
+
+/************
+ END OF DEBUG RULES 
+*************/
+
+body {
+    background-color: black;
+}
+
+.main-content {
+    height: calc(100vh - 60px);
+    padding: 60px 0 30px;
+    position: relative;
+}
+
+.container {
+    max-width: 1308px;
+    margin: 0 auto;
+    max-height: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -2px;
+}
+
+.row .col-14 {
+    flex-basis: calc(100% / 7);
+    padding: 2px;
+}
+
+.tool-bar {
+    height: 60px;
+    background-color: #222;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.card {
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    line-height: 30px;
+    padding: 0 6px;
+    font-size: 12px;
+}
+
+.speaker-view {
+    color: white;
+    font-size: 12px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 4px;
+    padding: 0 4px;
+    line-height: 25px;
+}
+
+.maximize {
+    padding: 0 6px;
+}
+
+.views-menu {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.row-view {
+    gap: 6px;
+}
+
+.row-menu-1 {
+    align-items: center;
+}
+
+.col-menu {
+    padding: 10px 0 0 20px;
+}
+
+.mic-mute {
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+.mic {
+    font-size: 20px;
+}
+
+.icon-text {
+    display: block;
+    font-size: 11px;
+    padding-top: 5px;
+}
+
+.arrow-up {
+    color: white;
+    font-size: 8px;
+}
