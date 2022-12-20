@@ -158,3 +158,11 @@ body {
     line-height: 70px;
 }
 
+main .row {
+    margin-bottom: 6px;
+}
+
+[class^="row-menu"] {
+    flex-wrap: nowrap;
+}
+
